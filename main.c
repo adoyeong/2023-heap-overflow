@@ -14,7 +14,7 @@ int main()
 	char *PASSWDS = (char*)malloc(sizeof(char)*PasswdMax);
 	char *USERS = (char*)malloc(sizeof(char)*NameMax);
 
-	fd = fopen("/home/kali/securetest/passwd.txt", "r");
+	fd = fopen("/home/kali/2023-heap-overflow/passwd.txt", "r");
 	if(fd == NULL)
 	{
 		fprintf(stdout, "\n[Error] Cannot find passwd file!\n");
